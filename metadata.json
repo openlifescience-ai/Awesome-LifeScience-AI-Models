@@ -1,0 +1,30 @@
+[
+    {
+        "model_name": "FashionGPT-70B-V1.1",
+        "model_id": "fashiongpt_70b_v1_1",
+        "user_name": "ibu",
+        "pipeline_tag": "Text Generation (description for our use: Tag to be displayed in small model card)",
+        "tags": ["tag1", "tag2"],
+        "library": ["pytorch", "transformers"],
+        "datasets": [
+            "user_name/dataset_name"
+        ],
+        "license": ""
+    },
+    {
+        "model_name": "codellama-13b-oasst-sft-v10",
+        "model_id": "codellama_13b_oasst_sft_v10",
+        "user_name": "openassi",
+        "pipeline_tag": "Text Generation",
+        "tags": ["tag1", "tag2"],
+        "library": ["safetensors", "transformers"],
+        "datasets": [
+            "user_name/dataset_name",
+            "openassi/ossat1"
+        ],
+        "license": "llama2"
+    },
+    {
+
+    }
+]
