@@ -39,5 +39,26 @@
         ],
         "source": "https://www.kaggle.com/models/tatsu-lab/alpaca",
         "license": "APSL-2.0"
+    },
+    {
+        "id": "codellama_13b_oasst_sft_v10",
+        "name": "codellama-13b-oasst-sft-v10",
+        "description": {
+            "homepage": "google.com",
+            "repo": "github.com",
+            "paper": "arxvi.com",
+            "leaderboard": "sample.com",
+            "point_of_contact": "name - email"
+        },
+        "task": "Lab Test Result Interpretation",
+        "modalites": "texts",
+        "datasets": [
+            "https://huggingface.co/datasets/bigcode/the-stack",
+            "https://huggingface.co/datasets/bigcode/the-stack",
+            "https://huggingface.co/datasets/bigcode/the-stack",
+            "https://huggingface.co/datasets/bigcode/the-stack"
+        ],
+        "source": "https://www.kaggle.com/models/tatsu-lab/alpaca",
+        "license": "APSL-2.0"
     }
 ]
