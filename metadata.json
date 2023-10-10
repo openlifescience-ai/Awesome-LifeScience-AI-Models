@@ -1,30 +1,43 @@
 [
     {
-        "model_name": "FashionGPT-70B-V1.1",
-        "model_id": "fashiongpt_70b_v1_1",
-        "user_name": "ibu",
-        "pipeline_tag": "Text Generation (description for our use: Tag to be displayed in small model card)",
-        "tags": ["tag1", "tag2"],
-        "library": ["pytorch", "transformers"],
+        "id": "fashiongpt_70b_v1_1",
+        "name": "FashionGPT-70B-V1.1",
+        "group_name": "ibu",
+        "description": {
+            "homepage": "google.com",
+            "repo": "github.com",
+            "paper": "arxvi.com",
+            "leaderboard": "sample.com",
+            "point_of_contact": "name - email"
+        },
+        "task": "PET Scan Analysis",
+        "modalites": "images",
         "datasets": [
-            "user_name/dataset_name"
+            "https://huggingface.co/datasets/bigcode/the-stack",
+            "https://huggingface.co/datasets/bigcode/the-stack"
         ],
-        "license": ""
+        "source": "https://huggingface.co/openai/whisper-large-v2",
+        "license": "BSL-1.0"
     },
     {
-        "model_name": "codellama-13b-oasst-sft-v10",
-        "model_id": "codellama_13b_oasst_sft_v10",
-        "user_name": "openassi",
-        "pipeline_tag": "Text Generation",
-        "tags": ["tag1", "tag2"],
-        "library": ["safetensors", "transformers"],
+        "id": "codellama_13b_oasst_sft_v10",
+        "name": "codellama-13b-oasst-sft-v10",
+        "description": {
+            "homepage": "google.com",
+            "repo": "github.com",
+            "paper": "arxvi.com",
+            "leaderboard": "sample.com",
+            "point_of_contact": "name - email"
+        },
+        "task": "Lab Test Result Interpretation",
+        "modalites": "texts",
         "datasets": [
-            "user_name/dataset_name",
-            "openassi/ossat1"
+            "https://huggingface.co/datasets/bigcode/the-stack",
+            "https://huggingface.co/datasets/bigcode/the-stack",
+            "https://huggingface.co/datasets/bigcode/the-stack",
+            "https://huggingface.co/datasets/bigcode/the-stack"
         ],
-        "license": "llama2"
-    },
-    {
-
+        "source": "https://www.kaggle.com/models/tatsu-lab/alpaca",
+        "license": "APSL-2.0"
     }
 ]
