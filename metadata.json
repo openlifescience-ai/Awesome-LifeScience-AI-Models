@@ -41,8 +41,9 @@
         "license": "APSL-2.0"
     },
     {
-        "id": "codellama_13b_oasst_sft_v10",
-        "name": "codellama-13b-oasst-sft-v10",
+        "id": "gte_tiny",
+        "name": "gte-tiny",
+        "group_name": "TaylorAI",
         "description": {
             "homepage": "google.com",
             "repo": "github.com",
