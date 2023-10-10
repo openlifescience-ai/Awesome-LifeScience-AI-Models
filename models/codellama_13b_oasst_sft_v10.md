@@ -1,4 +1,4 @@
-# FashionGPT-70B-V1.1
+# codellama-13b-oasst-sft-v10
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
