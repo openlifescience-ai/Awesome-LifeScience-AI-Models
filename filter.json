@@ -1,0 +1,142 @@
+[
+    {
+        "filter_name": "tasks",
+        "multiple": true,
+        "nested": true,
+        "value": [
+            {
+                "name": "Medical Imaging",
+                "value": [
+                    "X-ray Analysis",
+                    "MRI Analysis",
+                    "CT Scan Analysis",
+                    "PET Scan Analysis",
+                    "Ultrasound Analysis",
+                    "Endoscopy Image Analysis",
+                    "Image Segmentation",
+                    "Tumor Detection"
+                ]
+            },
+            {
+                "name": "Genomics & Bioinformatics",
+                "value": [
+                    "DNA Sequencing Analysis",
+                    "RNA Sequencing Analysis",
+                    "Protein Sequencing Analysis",
+                    "Gene Expression Analysis",
+                    "Protein Interaction Networks",
+                    "Metabolic Pathway Analysis",
+                    "Genome-Wide Association Studies"
+                ]
+            },
+            {
+                "name": "Clinical Data Analysis",
+                "value": [
+                    "Electronic Health Records (EHR) Analysis",
+                    "Clinical Note Extraction",
+                    "Lab Test Result Interpretation",
+                    "Predictive Modeling (e.g., disease risk)"
+                ]
+            },
+            {
+                "name": "Wearables & IoT Devices",
+                "value": [
+                    "Heart Rate Analysis",
+                    "Sleep Pattern Analysis",
+                    "Blood Glucose Monitoring",
+                    "Activity Monitoring"
+                ]
+            },
+            {
+                "name": "Textual & NLP",
+                "value": [
+                    "Medical Literature Analysis",
+                    "Patient Feedback Analysis",
+                    "Medical Chatbots",
+                    "Clinical Trial Reports Analysis"
+                ]
+            },
+            {
+                "name": "Tabular Data Analysis",
+                "value": [
+                    "Patient Demographics",
+                    "Drug Prescription Analysis",
+                    "Vaccine Distribution Analysis",
+                    "Clinical Trial Data"
+                ]
+            },
+            {
+                "name": "Time Series Analysis",
+                "value": [
+                    "ECG Monitoring",
+                    "Pulse Oximetry Analysis",
+                    "Vital Signs Monitoring"
+                ]
+            },
+            {
+                "name": "Video Analysis",
+                "value": [
+                    "Movement or Gait Analysis",
+                    "Behavioral Analysis",
+                    "Surgical Procedure Analysis"
+                ]
+            },
+            {
+                "name": "Pathological & Microscopy",
+                "value": [
+                    "Histopathology Slide Analysis",
+                    "Cytology Slide Analysis",
+                    "Microbial Identification"
+                ]
+            },
+            {
+                "name": "Drug Discovery & Pharmacology",
+                "value": [
+                    "Molecular Docking",
+                    "Drug Repurposing Analysis",
+                    "Toxicology Prediction",
+                    "Drug-Drug Interaction Analysis"
+                ]
+            },
+            {
+                "name": "Epidemiology & Public Health",
+                "value": [
+                    "Disease Spread Modeling",
+                    "Health Behavior Analysis",
+                    "Vaccine Efficacy Studies",
+                    "Population Health Studies"
+                ]
+            }
+        ]
+    },
+    {
+        "filter_name": "sizes",
+        "multiple": true,
+        "nested": false,
+        "value": ["<1GB", "1-10GB"]
+    },
+    {
+        "filter_name": "sources",
+        "multiple": true,
+        "nested": false,
+        "value": ["Kaggle", "Huggingface", "Research Institution"]
+    },
+    {
+        "filter_name": "modalities",
+        "multiple": true,
+        "nested": false,
+        "value": ["Images", "sequences", "texts"]
+    },
+    {
+        "filter_name": "licenses",
+        "multiple": true,
+        "nested": false,
+        "value": ["BSL-1.0", "APSL-2.0"]
+    },
+    {
+        "filter_name": "others",
+        "multiple": true,
+        "nested": false,
+        "value": []
+    }
+]

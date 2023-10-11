@@ -5,18 +5,27 @@
         "group_name": "ibu",
         "description": {
             "homepage": "google.com",
-            "repo": "github.com",
+            "repository": "github.com",
             "paper": "arxvi.com",
             "leaderboard": "sample.com",
             "point_of_contact": "name - email"
         },
-        "task": "PET Scan Analysis",
-        "modalites": "images",
+        "tasks": ["PET Scan Analysis", "X-ray Analysis", "CT Scan Analysis"],
+        "modalities": ["Images"],
         "datasets": [
-            "https://huggingface.co/datasets/bigcode/the-stack",
-            "https://huggingface.co/datasets/bigcode/the-stack"
+            {
+                "name": "dataset 1",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "dataset 2",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            }
         ],
-        "source": "https://huggingface.co/openai/whisper-large-v2",
+        "source": {
+            "name": "Huggingface",
+            "url": "https://huggingface.co/openai/whisper-large-v2"
+        },
         "license": "BSL-1.0"
     },
     {
@@ -24,20 +33,17 @@
         "name": "codellama-13b-oasst-sft-v10",
         "description": {
             "homepage": "google.com",
-            "repo": "github.com",
+            "repository": "github.com",
             "paper": "arxvi.com",
             "leaderboard": "sample.com",
             "point_of_contact": "name - email"
         },
-        "task": "Lab Test Result Interpretation",
-        "modalites": "texts",
-        "datasets": [
-            "https://huggingface.co/datasets/bigcode/the-stack",
-            "https://huggingface.co/datasets/bigcode/the-stack",
-            "https://huggingface.co/datasets/bigcode/the-stack",
-            "https://huggingface.co/datasets/bigcode/the-stack"
-        ],
-        "source": "https://www.kaggle.com/models/tatsu-lab/alpaca",
+        "tasks": ["Lab Test Result Interpretation", "X-ray Analysis"],
+        "modalities": ["texts"],
+        "source": {
+            "name": "Kaggle",
+            "url": "https://www.kaggle.com/models/tatsu-lab/alpaca"
+        },
         "license": "APSL-2.0"
     },
     {
@@ -46,20 +52,35 @@
         "group_name": "TaylorAI",
         "description": {
             "homepage": "google.com",
-            "repo": "github.com",
+            "repository": "github.com",
             "paper": "arxvi.com",
             "leaderboard": "sample.com",
             "point_of_contact": "name - email"
         },
-        "task": "Lab Test Result Interpretation",
-        "modalites": "texts",
+        "tasks": ["Lab Test Result Interpretation"],
+        "modalities": ["texts"],
         "datasets": [
-            "https://huggingface.co/datasets/bigcode/the-stack",
-            "https://huggingface.co/datasets/bigcode/the-stack",
-            "https://huggingface.co/datasets/bigcode/the-stack",
-            "https://huggingface.co/datasets/bigcode/the-stack"
+            {
+                "name": "dataset 1",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "dataset 2",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "dataset 1",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "dataset 2",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            }
         ],
-        "source": "https://www.kaggle.com/models/tatsu-lab/alpaca",
+        "source": {
+            "name": "Kaggle",
+            "url": "https://www.kaggle.com/models/tatsu-lab/alpaca"
+        },
         "license": "APSL-2.0"
     }
 ]
