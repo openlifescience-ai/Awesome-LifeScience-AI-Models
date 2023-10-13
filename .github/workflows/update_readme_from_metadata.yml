@@ -1,0 +1,30 @@
+name: Update README with Metadata
+
+on:
+  push:
+    paths:
+    - 'metadata.json'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+      
+    - name: Update README.md with table
+      run: |
+        python .github/scripts/generate_readme.py
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
+        git add README.md
+        git commit -m "Update README with latest metadata.json content" || exit 0
+        git push
