@@ -1,142 +1,476 @@
 [
-    {
-        "filter_name": "tasks",
-        "multiple": true,
-        "nested": true,
-        "value": [
-            {
-                "name": "Medical Imaging",
-                "value": [
-                    "X-ray Analysis",
-                    "MRI Analysis",
-                    "CT Scan Analysis",
-                    "PET Scan Analysis",
-                    "Ultrasound Analysis",
-                    "Endoscopy Image Analysis",
-                    "Image Segmentation",
-                    "Tumor Detection"
-                ]
-            },
-            {
-                "name": "Genomics & Bioinformatics",
-                "value": [
-                    "DNA Sequencing Analysis",
-                    "RNA Sequencing Analysis",
-                    "Protein Sequencing Analysis",
-                    "Gene Expression Analysis",
-                    "Protein Interaction Networks",
-                    "Metabolic Pathway Analysis",
-                    "Genome-Wide Association Studies"
-                ]
-            },
-            {
-                "name": "Clinical Data Analysis",
-                "value": [
-                    "Electronic Health Records (EHR) Analysis",
-                    "Clinical Note Extraction",
-                    "Lab Test Result Interpretation",
-                    "Predictive Modeling (e.g., disease risk)"
-                ]
-            },
-            {
-                "name": "Wearables & IoT Devices",
-                "value": [
-                    "Heart Rate Analysis",
-                    "Sleep Pattern Analysis",
-                    "Blood Glucose Monitoring",
-                    "Activity Monitoring"
-                ]
-            },
-            {
-                "name": "Textual & NLP",
-                "value": [
-                    "Medical Literature Analysis",
-                    "Patient Feedback Analysis",
-                    "Medical Chatbots",
-                    "Clinical Trial Reports Analysis"
-                ]
-            },
-            {
-                "name": "Tabular Data Analysis",
-                "value": [
-                    "Patient Demographics",
-                    "Drug Prescription Analysis",
-                    "Vaccine Distribution Analysis",
-                    "Clinical Trial Data"
-                ]
-            },
-            {
-                "name": "Time Series Analysis",
-                "value": [
-                    "ECG Monitoring",
-                    "Pulse Oximetry Analysis",
-                    "Vital Signs Monitoring"
-                ]
-            },
-            {
-                "name": "Video Analysis",
-                "value": [
-                    "Movement or Gait Analysis",
-                    "Behavioral Analysis",
-                    "Surgical Procedure Analysis"
-                ]
-            },
-            {
-                "name": "Pathological & Microscopy",
-                "value": [
-                    "Histopathology Slide Analysis",
-                    "Cytology Slide Analysis",
-                    "Microbial Identification"
-                ]
-            },
-            {
-                "name": "Drug Discovery & Pharmacology",
-                "value": [
-                    "Molecular Docking",
-                    "Drug Repurposing Analysis",
-                    "Toxicology Prediction",
-                    "Drug-Drug Interaction Analysis"
-                ]
-            },
-            {
-                "name": "Epidemiology & Public Health",
-                "value": [
-                    "Disease Spread Modeling",
-                    "Health Behavior Analysis",
-                    "Vaccine Efficacy Studies",
-                    "Population Health Studies"
-                ]
-            }
-        ]
-    },
-    {
-        "filter_name": "sizes",
-        "multiple": true,
-        "nested": false,
-        "value": ["<1GB", "1-10GB"]
-    },
-    {
-        "filter_name": "sources",
-        "multiple": true,
-        "nested": false,
-        "value": ["Kaggle", "Huggingface", "Research Institution"]
-    },
-    {
-        "filter_name": "modalities",
-        "multiple": true,
-        "nested": false,
-        "value": ["Images", "sequences", "texts"]
-    },
-    {
-        "filter_name": "licenses",
-        "multiple": true,
-        "nested": false,
-        "value": ["BSL-1.0", "APSL-2.0"]
-    },
-    {
-        "filter_name": "others",
-        "multiple": true,
-        "nested": false,
-        "value": []
-    }
+   {
+      "filter_name":"tasks",
+      "multiple":true,
+      "nested":true,
+      "value":[
+         {
+            "name":"Medical Imaging",
+            "value":[
+               "X-ray Analysis",
+               "MRI Analysis",
+               "CT Scan Analysis",
+               "PET Scan Analysis",
+               "Ultrasound Analysis",
+               "Endoscopy Image Analysis",
+               "Image Segmentation",
+               "Tumor Detection"
+            ]
+         },
+         {
+            "name":"Genomics & Bioinformatics",
+            "value":[
+               "DNA Sequencing Analysis",
+               "RNA Sequencing Analysis",
+               "Protein Sequencing Analysis",
+               "Gene Expression Analysis",
+               "Protein Interaction Networks",
+               "Metabolic Pathway Analysis",
+               "Genome-Wide Association Studies"
+            ]
+         },
+         {
+            "name":"Clinical Data Analysis",
+            "value":[
+               "Electronic Health Records (EHR) Analysis",
+               "Clinical Note Extraction",
+               "Lab Test Result Interpretation",
+               "Predictive Modeling (e.g., disease risk)"
+            ]
+         },
+         {
+            "name":"Wearables & IoT Devices",
+            "value":[
+               "Heart Rate Analysis",
+               "Sleep Pattern Analysis",
+               "Blood Glucose Monitoring",
+               "Activity Monitoring"
+            ]
+         },
+         {
+            "name":"Textual & NLP",
+            "value":[
+               "Medical Literature Analysis",
+               "Patient Feedback Analysis",
+               "Medical Chatbots",
+               "Clinical Trial Reports Analysis"
+            ]
+         },
+         {
+            "name":"Tabular Data Analysis",
+            "value":[
+               "Patient Demographics",
+               "Drug Prescription Analysis",
+               "Vaccine Distribution Analysis",
+               "Clinical Trial Data"
+            ]
+         },
+         {
+            "name":"Time Series Analysis",
+            "value":[
+               "ECG Monitoring",
+               "Pulse Oximetry Analysis",
+               "Vital Signs Monitoring"
+            ]
+         },
+         {
+            "name":"Video Analysis",
+            "value":[
+               "Movement or Gait Analysis",
+               "Behavioral Analysis",
+               "Surgical Procedure Analysis"
+            ]
+         },
+         {
+            "name":"Pathological & Microscopy",
+            "value":[
+               "Histopathology Slide Analysis",
+               "Cytology Slide Analysis",
+               "Microbial Identification"
+            ]
+         },
+         {
+            "name":"Drug Discovery & Pharmacology",
+            "value":[
+               "Molecular Docking",
+               "Drug Repurposing Analysis",
+               "Toxicology Prediction",
+               "Drug-Drug Interaction Analysis"
+            ]
+         },
+         {
+            "name":"Epidemiology & Public Health",
+            "value":[
+               "Disease Spread Modeling",
+               "Health Behavior Analysis",
+               "Vaccine Efficacy Studies",
+               "Population Health Studies"
+            ]
+         }
+      ]
+   },
+   {
+      "filter_name":"Branches",
+      "multiple":true,
+      "nested":true,
+      "value":[
+         {
+            "name":"Pharmacology",
+            "value":[
+               "Drug Mechanism of Action",
+               "Adverse Drug Reactions",
+               "Drug-Drug Interactions",
+               "Pharmacokinetics & Pharmacodynamics",
+               "Drug Metabolism"
+            ]
+         },
+         {
+            "name":"ENT (Ear, Nose, Throat)",
+            "value":[
+               "Audiology Data (Hearing Tests)",
+               "Sinus Imaging",
+               "Tonsil and Adenoid Disorders",
+               "Otology (Ear Diseases)",
+               "Laryngology (Throat Diseases)"
+            ]
+         },
+         {
+            "name":"PSM (Preventive & Social Medicine)",
+            "value":[
+               "Epidemiological Studies",
+               "Health Surveys",
+               "Nutrition Studies",
+               "Occupational Health",
+               "Environmental Health"
+            ]
+         },
+         {
+            "name":"FM (Forensic Medicine)",
+            "value":[
+               "Autopsy Data",
+               "Toxicology Reports",
+               "Forensic Imaging",
+               "DNA and Blood Analysis"
+            ]
+         },
+         {
+            "name":"Dental",
+            "value":[
+               "Dental Imaging",
+               "Orthodontic Case Studies",
+               "Periodontal Disease Analysis",
+               "Oral Surgery Cases"
+            ]
+         },
+         {
+            "name":"Surgery",
+            "value":[
+               "Surgical Procedure Analysis",
+               "Pre and Post-Op Imaging",
+               "Minimally Invasive Procedures",
+               "Transplant Data"
+            ]
+         },
+         {
+            "name":"Pediatrics",
+            "value":[
+               "Growth and Development Data",
+               "Congenital Disorders",
+               "Pediatric Infectious Diseases",
+               "Neonatology"
+            ]
+         },
+         {
+            "name":"Ophthalmology",
+            "value":[
+               "Retinal Imaging",
+               "Glaucoma Studies",
+               "Refraction and Lens Data",
+               "Ocular Surgeries"
+            ]
+         },
+         {
+            "name":"Dermatology (Skin)",
+            "value":[
+               "Dermoscopic Imaging",
+               "Skin Biopsies",
+               "Dermatological Disorders",
+               "Cosmetic Dermatology"
+            ]
+         },
+         {
+            "name":"Orthopaedics",
+            "value":[
+               "Bone Imaging",
+               "Joint and Musculature Studies",
+               "Sports Injuries",
+               "Orthopedic Surgeries"
+            ]
+         },
+         {
+            "name":"Biochemistry",
+            "value":[
+               "Enzyme Studies",
+               "Metabolic Pathways",
+               "Hormone Analysis",
+               "Nutrient Analysis"
+            ]
+         },
+         {
+            "name":"Anatomy",
+            "value":[
+               "Cadaveric Studies",
+               "Anatomical Imaging",
+               "Neuroanatomy",
+               "Histological Slides"
+            ]
+         },
+         {
+            "name":"Radiology",
+            "value":[
+               "MRI Analysis",
+               "CT Scan Analysis",
+               "Ultrasound Studies",
+               "Nuclear Medicine Imaging"
+            ]
+         },
+         {
+            "name":"O&G (Obstetrics and Gynecology)",
+            "value":[
+               "Maternal Health Data",
+               "Fetal Monitoring",
+               "Gynecological Surgeries",
+               "Reproductive Health"
+            ]
+         },
+         {
+            "name":"Medicine (Internal Medicine)",
+            "value":[
+               "Cardiological Data",
+               "Pulmonary Function Tests",
+               "Endocrinology Data",
+               "Nephrology and Urology"
+            ]
+         },
+         {
+            "name":"Microbiology",
+            "value":[
+               "Microbial Identification",
+               "Antimicrobial Resistance",
+               "Virology Data",
+               "Mycology Studies"
+            ]
+         },
+         {
+            "name":"Physiology",
+            "value":[
+               "Cardiac Function Tests",
+               "Respiratory Function Tests",
+               "Digestive System Analysis",
+               "Neural Functions"
+            ]
+         },
+         {
+            "name":"Psychiatry",
+            "value":[
+               "Behavioral Analysis",
+               "Cognitive Function Tests",
+               "Psychiatric Interviews",
+               "Mental Health Surveys"
+            ]
+         },
+         {
+            "name":"Pathology",
+            "value":[
+               "Histopathology Slide Analysis",
+               "Blood Test Data",
+               "Immunology Studies",
+               "Molecular Pathology"
+            ]
+         },
+         {
+            "name":"Anaesthesia",
+            "value":[
+               "Anaesthetic Drug Data",
+               "Patient Monitoring During Surgery",
+               "Pain Management Studies"
+            ]
+         },
+         {
+            "name":"Unknown",
+            "value":[
+               "Miscellaneous Data",
+               "Unlabeled Studies",
+               "Non-specific Cases"
+            ]
+         },
+         {
+            "name":"Neurology",
+            "value":[
+               "Brain Imaging (MRI, CT, PET)",
+               "Electrophysiological Studies (EEG, EMG)",
+               "Movement Disorders Data",
+               "Dementia and Cognitive Assessment"
+            ]
+         },
+         {
+            "name":"Cardiology",
+            "value":[
+               "Echocardiography",
+               "Catheterization Data",
+               "Electrophysiology Studies",
+               "Congenital Heart Disease Data"
+            ]
+         },
+         {
+            "name":"Endocrinology",
+            "value":[
+               "Thyroid Function Tests",
+               "Diabetic Patient Data",
+               "Hormone Replacement Studies",
+               "Bone Density Scans"
+            ]
+         },
+         {
+            "name":"Gastroenterology",
+            "value":[
+               "Endoscopy Data",
+               "Liver Function Tests",
+               "Inflammatory Bowel Disease Studies",
+               "Digestive System Imaging"
+            ]
+         },
+         {
+            "name":"Hematology",
+            "value":[
+               "Blood Smear Analysis",
+               "Bone Marrow Biopsy Data",
+               "Coagulation Studies",
+               "Blood Transfusion Data"
+            ]
+         },
+         {
+            "name":"Nephrology",
+            "value":[
+               "Kidney Imaging",
+               "Dialysis Data",
+               "Renal Function Tests",
+               "Kidney Transplant Data"
+            ]
+         },
+         {
+            "name":"Pulmonology",
+            "value":[
+               "Pulmonary Function Tests",
+               "Chest Imaging",
+               "Asthma and Allergy Data",
+               "Sleep Study Data"
+            ]
+         },
+         {
+            "name":"Rheumatology",
+            "value":[
+               "Autoantibody Tests",
+               "Joint Imaging",
+               "Inflammatory Marker Studies"
+            ]
+         },
+         {
+            "name":"Allergology/Immunology",
+            "value":[
+               "Allergy Testing Data",
+               "Immune Response Data",
+               "Immunodeficiency Data"
+            ]
+         },
+         {
+            "name":"Oncology",
+            "value":[
+               "Tumor Imaging",
+               "Chemotherapy Data",
+               "Radiation Oncology Data",
+               "Cancer Surgery"
+            ]
+         },
+         {
+            "name":"Genetics",
+            "value":[
+               "Genetic Sequencing Data",
+               "Genetic Disorder Analysis",
+               "Prenatal Genetic Testing"
+            ]
+         },
+         {
+            "name":"Urology",
+            "value":[
+               "Bladder Imaging",
+               "Prostate Studies",
+               "Urinary Function Tests",
+               "Urological Surgeries"
+            ]
+         },
+         {
+            "name":"Plastic Surgery",
+            "value":[
+               "Cosmetic Surgery Data",
+               "Reconstructive Surgery Cases",
+               "Burn Treatment Data"
+            ]
+         },
+         {
+            "name":"Vascular Surgery",
+            "value":[
+               "Arterial and Venous Imaging",
+               "Aneurysm Studies",
+               "Vascular Access for Dialysis"
+            ]
+         }
+      ]
+   },
+   {
+      "filter_name":"sizes",
+      "multiple":false,
+      "nested":false,
+      "value":[
+         "<1GB",
+         "1-10GB"
+      ]
+   },
+   {
+      "filter_name":"sources",
+      "multiple":false,
+      "nested":false,
+      "value":[
+         "Kaggle",
+         "Huggingface",
+         "Research Institution"
+      ]
+   },
+   {
+      "filter_name":"modalities",
+      "multiple":false,
+      "nested":false,
+      "value":[
+         "Images",
+         "sequences",
+         "texts"
+      ]
+   },
+   {
+      "filter_name":"licenses",
+      "multiple":false,
+      "nested":false,
+      "value":[
+         "BSL-1.0",
+         "APSL-2.0"
+      ]
+   },
+   {
+      "filter_name":"others",
+      "multiple":false,
+      "nested":false,
+      "value":[
+         
+      ]
+   }
 ]
