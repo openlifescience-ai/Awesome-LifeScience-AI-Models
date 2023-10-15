@@ -428,7 +428,7 @@
       ]
    },
    {
-      "filter_name":"sizes",
+      "filter_name":"size",
       "multiple":false,
       "nested":false,
       "value":[
@@ -437,7 +437,7 @@
       ]
    },
    {
-      "filter_name":"sources",
+      "filter_name":"source",
       "multiple":false,
       "nested":false,
       "value":[
@@ -457,7 +457,7 @@
       ]
    },
    {
-      "filter_name":"licenses",
+      "filter_name":"license",
       "multiple":false,
       "nested":false,
       "value":[
